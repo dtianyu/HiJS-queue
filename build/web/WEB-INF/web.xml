@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <context-param>
+        <param-name>company</param-name>
+        <param-value>韩林炭烤</param-value>
+    </context-param>
+    <context-param>
+        <param-name>printerIp</param-name>
+        <param-value>192.168.0.99</param-value>
+    </context-param>
+    <context-param>
+        <param-name>printerPort</param-name>
+        <param-value>9100</param-value>
+    </context-param>
+    <context-param>
+        <param-name>breakfastBegin</param-name>
+        <param-value>00:00</param-value>
+    </context-param>
+    <context-param>
+        <param-name>breakfastEnd</param-name>
+        <param-value>9:59</param-value>
+    </context-param>
+    <context-param>
+        <param-name>lunchBegin</param-name>
+        <param-value>10:00</param-value>
+    </context-param>
+    <context-param>
+        <param-name>lunchEnd</param-name>
+        <param-value>15:59</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dinnerBegin</param-name>
+        <param-value>16:00</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dinnerEnd</param-name>
+        <param-value>22:00</param-value>
+    </context-param>
+</web-app>

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ls.queue.print;
+package com.gxxx.queue.ejb;
 
 import com.gprinter.command.EscCommand;
 import com.gprinter.command.GpCom;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ls.queue.rest;
+package com.gxxx.queue.rest;
 
 import java.util.Set;
 import javax.ws.rs.core.Application;
@@ -29,8 +29,8 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
-        resources.add(com.ls.queue.rest.CORSFilter.class);
-        resources.add(com.ls.queue.rest.queueFacadeREST.class);
+        resources.add(com.gxxx.queue.rest.CORSFilter.class);
+        resources.add(com.gxxx.queue.rest.QueueFacadeREST.class);
     }
     
 }
